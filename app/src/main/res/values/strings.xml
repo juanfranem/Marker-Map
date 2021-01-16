@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Map marker</string>
+    <string name="default_location">spain</string>
+    <string name="latitude_exception">Latitude debe ser un valor entre -90.0 y 90.0</string>
+    <string name="longitude_exception">Longitude debe ser un valor entre -180.0 y 180.0</string>
+    <string name="company_exception">Company debe ser superior a 0</string>
+    <string name="id_exception">Id no puede estar vacío</string>
+    <string name="name_exception">Nombre no puede estar vacío</string>
+    <string name="permission_exception">No se han concedido los permisos requeridos</string>
+    <string name="app_exception">Ha ocurrido un error</string>
+</resources>
