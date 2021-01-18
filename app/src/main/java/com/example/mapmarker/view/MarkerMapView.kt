@@ -26,7 +26,7 @@ import kotlin.coroutines.CoroutineContext
 
 class MarkerMapView @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null, defStyleAttr: Int = 0
-) : FrameLayout(context, attrs, defStyleAttr), OnMapReadyCallback, CoroutineScope {
+) : FrameLayout(context, attrs, defStyleAttr), OnMapReadyCallback {
 
     private lateinit var clusterManager: ClusterManager<MarkerCluster>
     private lateinit var map: GoogleMap
@@ -86,8 +86,5 @@ class MarkerMapView @JvmOverloads constructor(
         fun onMapReady()
         fun onCameraIdle(latLngBounds: LatLngBounds)
     }
-
-    override val coroutineContext: CoroutineContext
-        get() = Job() + Dispatchers.Main
 
 }
