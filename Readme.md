@@ -39,6 +39,7 @@ MAPS_API_KEY=AIz***************_**************o
 ### Todos
 
  - Write MORE Tests
+ - Add proguard files
  
 License
 ----
